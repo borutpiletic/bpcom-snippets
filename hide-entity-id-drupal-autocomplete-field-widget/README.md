@@ -3,3 +3,9 @@ This is a code snippet from blog post [Hide entity ID on autocomplete field widg
 
 Code snippet will hide/remove reference entity ID displayed in brackets by the
 autocomplete field.
+
+Tags:
+- autocomplete field reference
+- taxonomy
+- remove brackets
+- entity ID
