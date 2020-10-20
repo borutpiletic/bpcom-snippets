@@ -6,4 +6,3 @@ Code example how to create a custom Search API plugin for processing Paragraphs.
 **Tags**
 - search api
 - paragraphs
-- 

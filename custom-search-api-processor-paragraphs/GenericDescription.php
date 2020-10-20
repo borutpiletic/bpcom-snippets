@@ -1,4 +1,5 @@
 <?php
+
 namespace Drupal\module_name\Plugin\search_api\processor;
 
 use Drupal\Core\Entity\EntityInterface;
