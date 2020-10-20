@@ -1,4 +1,4 @@
-#### Select entity reference drop-down element in Drupal 8
+### Select entity reference drop-down element in Drupal 8
 This is a code snippet from blog post [Select entity reference drop-down element](http://borutpiletic.com/article/select-entity-reference-drop-down-element).
 
 Code snippet adds new form element type `select_entity_dropdown`. Element allows selection of 
