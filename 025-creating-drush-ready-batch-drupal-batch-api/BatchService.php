@@ -38,10 +38,10 @@ class BatchService implements BatchServiceInterface
     {
         /** @var \Drupal\Core\Batch\BatchBuilder $batchBuilder */
         $batchBuilder = (new BatchBuilder())
-      ->setTitle($this->t('Running node updates...'))
-      ->setFinishCallback([self::class, 'finishProcess'])
-      ->setInitMessage('The initialization message (optional)')
-      ->setProgressMessage('Completed @current of @total. See other placeholders.');
+            ->setTitle($this->t('Running node updates...'))
+            ->setFinishCallback([self::class, 'finishProcess'])
+            ->setInitMessage('The initialization message (optional)')
+            ->setProgressMessage('Completed @current of @total. See other placeholders.');
 
         $nodes = array_fill(0, 13, 'test');
         $total = count($nodes);
@@ -53,12 +53,12 @@ class BatchService implements BatchServiceInterface
             $itemsToProcess[] = $node;
             if ($i == $total || !($i % $batchSize)) {
                 $batchBuilder->addOperation([BatchService::class, 'process'], [
-          'batch' => [
-            'items' => $itemsToProcess,
-            'size' => $batchSize,
-            'total' => $total,
-          ],
-        ]);
+                    'batch' => [
+                        'items' => $itemsToProcess,
+                        'size' => $batchSize,
+                        'total' => $total,
+                    ],
+                ]);
                 $itemsToProcess = [];
             }
         }
