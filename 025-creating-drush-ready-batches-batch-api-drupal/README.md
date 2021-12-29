@@ -1,6 +1,6 @@
 # Creating Drush ready batches with Drupal Batch API in Drupal 8/9
 
-This folder contains code snippets from the blog post: http://borutpiletic.com/article/creating-drush-ready-batches-drupal-batch-api-drupal-89
+This folder contains code snippets from the blog post: http://borutpiletic.com/article/creating-drush-ready-batches-batch-api-drupal
 
 The objective of this short guide is the following:
 
